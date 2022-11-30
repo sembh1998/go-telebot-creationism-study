@@ -1,39 +1,39 @@
-#1. ¿Cuantos días duro la creación?
-exodo 20:11; genesis 1:1 al 2:3
-1,2,3,4,5,6,7,8,9,10
+#1. ¿Cuantos días duró la creación?
+Éxodo 20:11; Génesis 1:1 al 2:3
+1,2,3,4,5,6,[7],8,9,10
 
-#2. ¿Estos dias son literales o representan millones de años?
-exodo 20:11; genesis 1:5,8,13,19,23,31
-son linterales, represntan millones de años
+#2. ¿los días de la creación son literales o representan millones de años?
+Éxodo 20:11; Génesis 1:5,8,13,19,23,31
+[son literales], representan millones de años
 
-#3. ¿El hombre actual proviene de la evolución?
-genesis 1:27
-si,no,talvez,no estoy seguro
+#3. ¿Proviene el hombre de la evolución?
+Génesis 1:27
+sí,[no],tal vez,no estoy seguro
 
-#4. ¿Como estaba conformada la primera familia creada?
-genesis 1:24, marcos 10:6
-hombre con hombre, mujer con mujer, hombre con mujer
+#4. ¿Cómo estaba conformada la primera familia creada?
+Génesis 1:24, marcos 10:6
+Hombre con hombre, Mujer con mujer, Hombre con mujer
 
-#5. ¿Que de especial tiene el día sábado?
-genesis 2:2-3
-Dios lo santifico, No tiene nada de especial
+#5. ¿Qué de especial tiene el día sábado?
+Génesis 2:2-3
+Dios lo santificó, No tiene nada de especial
 
-#6. ¿El hombre luego de ser creado vagaba o tenia un trabajo?
-genesis 1:27-28; 2:19-20
-si vagaba, dormia todo el día, tenia un trabajo
+#6. ¿El hombre luego de ser creado vagaba o tenía un trabajo?
+Génesis 1:27-28; 2:19-20
+Vagaba, Dormía todo el día, Tenía un trabajo
 
-#7. ¿El hombre en el eden comia carne?
-genesis 1:29; 2:16-17
-si, no, tal vez, no lo se
+#7. ¿Comía el hombre carne en el edén?
+Génesis 1:29; 2:16-17
+Sí, No, Tal vez, No lo se
 
 #8. ¿Creo Dios todo?
-genesis 1:1
-si, no, masomenos
+Génesis 1:1
+Sí, No, Más o menos
 
-#9. ¿Cual es el primer día de la semana?
-dias en portugues, en el cristianismo el domingo es el primer día de la semana
-domingo, lunes
+#9. ¿Cuál es el primer día de la semana?
+Dias en portugues, En el cristianismo el domingo es el primer día de la semana
+Domingo, Lunes
 
 #10. ¿Ha cambiado el día de reposo del sábado al domingo?
 mateo 5:17
-si, no, tengo dudas
+Sí, No, Tengo dudas

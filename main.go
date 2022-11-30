@@ -22,7 +22,7 @@ var numericKeyboard = tgbotapi.NewReplyKeyboard(
 
 func main() {
 	fmt.Println("Hello, World!")
-	bot, err := tgbotapi.NewBotAPI("YOUR_TOKEN")
+	bot, err := tgbotapi.NewBotAPI("5989249720:AAHGADIaNIAeYyfRdC5NEbjgWbZK_vy2YHw")
 	if err != nil {
 		log.Panic(err)
 	}
