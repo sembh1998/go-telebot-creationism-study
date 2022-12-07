@@ -1,8 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"go-telebot-creationism-study/src/bootstrap"
+	"go-telebot-creationism-study/src/module/usecases"
 	"log"
+	"os"
 
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
@@ -21,8 +23,11 @@ var numericKeyboard = tgbotapi.NewReplyKeyboard(
 )
 
 func main() {
-	fmt.Println("Hello, World!")
-	bot, err := tgbotapi.NewBotAPI("5989249720:AAHGADIaNIAeYyfRdC5NEbjgWbZK_vy2YHw")
+
+	bootstrap := bootstrap.Bootstrap{}
+	bootstrap.Init()
+
+	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_BOT_TOKEN"))
 	if err != nil {
 		log.Panic(err)
 	}
@@ -38,25 +43,7 @@ func main() {
 			continue
 		}
 		if update.Message != nil { // If we got a message
-			log.Printf("[%s] %s", update.Message.From.UserName, update.Message.Text)
-			if update.Message.IsCommand() {
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "")
-				switch update.Message.Command() {
-				case "help":
-					msg.Text = "I understand /sayhi and /status."
-				case "sayhi":
-					msg.Text = "Hi :)"
-				case "status":
-					msg.Text = "I'm ok."
-				default:
-					msg.Text = "I don't know that command"
-				}
-			} else {
-				msg := tgbotapi.NewMessage(update.Message.Chat.ID, "no es un comando")
-				msg.ReplyToMessageID = update.Message.MessageID
-				msg.ReplyMarkup = numericKeyboard
-				bot.Send(msg)
-			}
+			usecases.SimpleResponse(update, bot)
 		}
 	}
 

@@ -1,6 +1,6 @@
 #1. ¿Cuantos días duró la creación?
 Éxodo 20:11; Génesis 1:1 al 2:3
-1,2,3,4,5,6,[7],8,9,10
+5,6,[7],8
 
 #2. ¿los días de la creación son literales o representan millones de años?
 Éxodo 20:11; Génesis 1:5,8,13,19,23,31
@@ -31,7 +31,7 @@ Génesis 1:1
 Sí, No, Más o menos
 
 #9. ¿Cuál es el primer día de la semana?
-Dias en portugues, En el cristianismo el domingo es el primer día de la semana
+Dias en portugues, En el cristianismo es el domingo
 Domingo, Lunes
 
 #10. ¿Ha cambiado el día de reposo del sábado al domingo?

@@ -1,0 +1,13 @@
+version: "1"
+packages: [{
+  # dblog
+  name: "dbtelebot",
+  path: "./src/data/dbtelebot",
+  schema: "./src/data/telebotSchema.sql",
+  queries: "./src/data/telebotQueries.sql",
+  engine: "mysql",
+  emit_json_tags: false,
+  emit_prepared_queries: true,
+  emit_interface: true,
+  emit_exact_table_names: false
+}]
